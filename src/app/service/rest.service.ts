@@ -4,7 +4,7 @@ import { Observable, of } from 'rxjs';
 import { map, catchError, tap } from 'rxjs/operators';
 
 
-const endpoint = 'http://localhost:8080/register';
+const endpoint = 'http://ec2-54-89-207-214.compute-1.amazonaws.com:8080/register';
 const httpOptions = {
   headers: new HttpHeaders({
     'Content-Type':  'application/json'
